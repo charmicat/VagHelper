@@ -15,12 +15,14 @@ public class HelperFunctions {
 	private static String TAG = "HelperFunctions";
 
 	// Determine if servicename is currently running
-	public static boolean isServiceRunning(Context context, String servicename) {
+	public static boolean isServiceRunning(Context context, String servicename,
+			boolean debug) {
 		ActivityManager manager = (ActivityManager) context
 				.getSystemService(Context.ACTIVITY_SERVICE);
 		for (RunningServiceInfo service : manager
 				.getRunningServices(Integer.MAX_VALUE)) {
-			Log.d(TAG, service.service.getClassName());
+			if (debug)
+				Log.d(TAG, service.service.getClassName());
 			if (servicename.equals(service.service.getClassName())) {
 				return true;
 			}
