@@ -1,6 +1,7 @@
 package com.vag.vaghelper;
 
 import java.util.List;
+
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
@@ -16,10 +17,13 @@ import android.util.Log;
 @SuppressLint("InlinedApi")
 public class HelperFunctions {
 
-	private static String TAG = "HelperFunctions";
+	private static final String TAG = "HelperFunctions";
 
 	// Determine if servicename is currently running
 	public static boolean isServiceRunning(Context context, String servicename, boolean debug) {
+		if (debug) {
+			Log.d(TAG, "isServiceRunning");
+		}
 		ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
 		for (RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
 			if (debug)
@@ -36,16 +40,16 @@ public class HelperFunctions {
 	 * method queries the package manager for installed packages that can
 	 * respond to an intent with the specified action. If no suitable package is
 	 * found, this method returns false.
-	 * 
-	 * @param context
-	 *            The application's environment.
-	 * @param action
-	 *            The Intent action to check for availability.
-	 * 
+	 *
+	 * @param context The application's environment.
+	 * @param action  The Intent action to check for availability.
 	 * @return True if an Intent with the specified action can be sent and
-	 *         responded to, false otherwise.
+	 * responded to, false otherwise.
 	 */
-	public static boolean isIntentAvailable(Context context, String action) {
+	public static boolean isIntentAvailable(Context context, String action, boolean debug) {
+		if (debug) {
+			Log.d(TAG, "isIntentAvailable");
+		}
 		final PackageManager packageManager = context.getPackageManager();
 		final Intent intent = new Intent(action);
 		List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
@@ -66,8 +70,12 @@ public class HelperFunctions {
 		return intent;
 	}
 
-	public static Intent rateApp(Context c) {
+	public static Intent rateApp(Context c, boolean debug) {
 		Intent rateIntent;
+		if (debug) {
+			Log.d(TAG, "rateApp");
+		}
+
 		// google play
 		try {
 			rateIntent = rateIntentForUrl(c, "market://details");
