@@ -79,8 +79,10 @@ public class HelperFunctions {
 		// google play
 		try {
 			rateIntent = rateIntentForUrl(c, "market://details");
+            c.startActivity(rateIntent);
 		} catch (ActivityNotFoundException e) {
 			rateIntent = rateIntentForUrl(c, "http://play.google.com/store/apps/details");
+            c.startActivity(rateIntent);
 		}
 		// amazon appstore
 		// as of now a different approach is not needed
