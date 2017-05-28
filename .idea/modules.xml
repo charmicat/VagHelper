@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/VagHelper.iml" filepath="$PROJECT_DIR$/.idea/VagHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VagHelper.iml" filepath="$PROJECT_DIR$/VagHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vagHelper/vagHelper.iml" filepath="$PROJECT_DIR$/vagHelper/vagHelper.iml" />
     </modules>
   </component>
 </project>
