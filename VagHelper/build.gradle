@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.library'
+}
+
+ext {
+    // Provide your own coordinates here
+    PUBLISH_GROUP_ID = 'io.github.charmicat'
+    PUBLISH_VERSION = '2.0.0'
+    PUBLISH_ARTIFACT_ID = 'stream-chat-android-client'
+}
+
+apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.1'
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('/mnt/depot1/home/talto/GoogleDrive/workspace/android.keystore')
+            keyAlias 'ldukeystore'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdk 33
+    defaultConfig {
+        versionCode 2
+        versionName '2.0'
+        minSdk 23
+    }
+}
