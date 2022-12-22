@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VagHelper.iml" filepath="$PROJECT_DIR$/VagHelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vagHelper/vagHelper.iml" filepath="$PROJECT_DIR$/vagHelper/vagHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VagHelper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VagHelper.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.testFixtures.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.testFixtures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vagHelper/VagHelper.app.VagHelper.unitTest.iml" />
     </modules>
   </component>
 </project>
