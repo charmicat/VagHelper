@@ -12,7 +12,6 @@ import android.util.Log;
 
 import java.util.List;
 
-//@SuppressLint("InlinedApi")
 public class HelperFunctions {
 
     private static final String TAG = "HelperFunctions";
