@@ -5,8 +5,8 @@ plugins {
 ext {
     // Provide your own coordinates here
     PUBLISH_GROUP_ID = 'io.github.charmicat'
-    PUBLISH_VERSION = '2.0.0'
-    PUBLISH_ARTIFACT_ID = 'stream-chat-android-client'
+    PUBLISH_VERSION = '3.0.0'
+    PUBLISH_ARTIFACT_ID = 'vaghelper'
 }
 
 apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
@@ -33,7 +33,7 @@ android {
     compileSdk 33
     defaultConfig {
         versionCode 2
-        versionName '2.0'
+        versionName '3.0'
         minSdk 23
     }
 }

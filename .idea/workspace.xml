@@ -18,42 +18,16 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5855dc-3ab6-4730-b145-71f76860ea02" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/7.4/checksums/checksums.lock&#10;#&#9;.gradle/7.4/checksums/md5-checksums.bin&#10;#&#9;.gradle/7.4/checksums/sha1-checksums.bin&#10;#&#9;.gradle/7.4/executionHistory/executionHistory.lock&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;VagHelper.iml&#10;#&#9;VagHelper/src/main/AndroidManifest.xml&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/src/main/AndroidManifest.xml&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/vagHelper.iml&#10;#&#9;build.gradle&#10;#&#9;local.properties&#10;#&#9;settings.gradle&#10;#&#9;vagHelper/src/main/AndroidManifest.xml&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java">
+    <list default="true" id="4f5855dc-3ab6-4730-b145-71f76860ea02" name="Changes" comment="updating gradle building">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vagHelper_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vagHelper_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vagHelper_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vagHelper_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/VagHelper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VagHelper/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/vagHelper/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/vagHelper/build/generated/source/buildConfig/debug/com/vag/VagHelper/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/vagHelper/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VagHelper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/publish-module.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/publish-module.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,14 +75,15 @@
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/VagHelper/src/test/java/com/vag/vaghelper" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Suggestions" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Default Config" />
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
@@ -165,16 +140,26 @@
       <option name="project" value="LOCAL" />
       <updated>1671734649970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/7.4/checksums/checksums.lock&#10;#&#9;.gradle/7.4/checksums/md5-checksums.bin&#10;#&#9;.gradle/7.4/checksums/sha1-checksums.bin&#10;#&#9;.gradle/7.4/executionHistory/executionHistory.lock&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;VagHelper.iml&#10;#&#9;VagHelper/src/main/AndroidManifest.xml&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/src/main/AndroidManifest.xml&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/vagHelper.iml&#10;#&#9;build.gradle&#10;#&#9;local.properties&#10;#&#9;settings.gradle&#10;#&#9;vagHelper/src/main/AndroidManifest.xml&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java">
+      <created>1671735309576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671735309576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <GitHub url="https://github.com" />
     </servers>
   </component>
   <component name="UnloadedModulesList">
+    <module name="VagHelper.app" />
+    <module name="VagHelper.app.VagHelper" />
     <module name="VagHelper.mylibrary" />
     <module name="VagHelper.mylibrary.androidTest" />
     <module name="VagHelper.mylibrary.main" />
     <module name="VagHelper.mylibrary.unitTest" />
+    <module name="VagHelper.vagHelper" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
