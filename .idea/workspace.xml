@@ -10,6 +10,9 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
+      <module name="workspace.VagHelper.VagHelper.main~1" />
+      <module name="workspace.VagHelper.VagHelper.unitTest~1" />
+      <module name="workspace.VagHelper.VagHelper.androidTest~1" />
       <module name="workspace.VagHelper.VagHelper" />
       <module name="VagHelper" />
       <module name="workspace.VagHelper.VagHelper.main" />
@@ -19,15 +22,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5855dc-3ab6-4730-b145-71f76860ea02" name="Changes" comment="updating gradle building">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/VagHelper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VagHelper/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VagHelper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/publish-module.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/publish-module.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/VagHelper/src/test/java/com/vag/vaghelper" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671735309576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updating gradle building">
+      <created>1671749173382</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671749173382</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <GitHub url="https://github.com" />
     </servers>
@@ -173,8 +180,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updating gradle building" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/7.4/checksums/checksums.lock&#10;#&#9;.gradle/7.4/checksums/md5-checksums.bin&#10;#&#9;.gradle/7.4/checksums/sha1-checksums.bin&#10;#&#9;.gradle/7.4/executionHistory/executionHistory.lock&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;VagHelper.iml&#10;#&#9;VagHelper/src/main/AndroidManifest.xml&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/src/main/AndroidManifest.xml&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/vagHelper.iml&#10;#&#9;build.gradle&#10;#&#9;local.properties&#10;#&#9;settings.gradle&#10;#&#9;vagHelper/src/main/AndroidManifest.xml&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/7.4/checksums/checksums.lock&#10;#&#9;.gradle/7.4/checksums/md5-checksums.bin&#10;#&#9;.gradle/7.4/checksums/sha1-checksums.bin&#10;#&#9;.gradle/7.4/executionHistory/executionHistory.lock&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;VagHelper.iml&#10;#&#9;VagHelper/src/main/AndroidManifest.xml&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/src/main/AndroidManifest.xml&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/vagHelper.iml&#10;#&#9;build.gradle&#10;#&#9;local.properties&#10;#&#9;settings.gradle&#10;#&#9;vagHelper/src/main/AndroidManifest.xml&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java" />
+    <MESSAGE value="updating gradle building" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating gradle building" />
   </component>
 </project>
