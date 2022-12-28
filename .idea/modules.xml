@@ -11,11 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylibrary/VagHelper.mylibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mylibrary/VagHelper.mylibrary.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vagHelper/VagHelper.vagHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/vagHelper/VagHelper.vagHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest~1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main~1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest~1.iml" />
     </modules>
   </component>
