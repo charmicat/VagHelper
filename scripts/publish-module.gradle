@@ -22,7 +22,7 @@ task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
     destinationDir = file("../javadoc/")
-    failOnError false
+    failOnError true
 }
 task javadocJar(type: Jar, dependsOn: javadoc) {
     archiveClassifier.set('javadoc')
@@ -55,16 +55,24 @@ afterEvaluate {
                 }
 
                 artifact androidSourcesJar
-                artifact javadocJar
+//                artifact javadocJar
 
                 // Mostly self-explanatory metadata
                 pom {
                     name = PUBLISH_ARTIFACT_ID
                     description = 'VagHelper'
                     url = 'https://github.com/charmicat/VagHelper'
+                    licenses {
+                        license {
+                            name = 'MIT License'
+                            url = 'http://www.opensource.org/licenses/mit-license.php'
+                        }
+                    }
                     developers {
                         developer {
+                            id = 'charmicat'
                             name = 'Luiza Utsch'
+                            email = 'luizautsch@charmicat.com'
                         }
                     }
 
