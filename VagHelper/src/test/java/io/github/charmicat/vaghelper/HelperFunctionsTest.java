@@ -1,25 +1,17 @@
 package io.github.charmicat.vaghelper;
 
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import static io.github.charmicat.vaghelper.R;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.speech.tts.TextToSpeech;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.runners.MockitoJUnitRunner;
+import org.junit.Test;
 
-import java.io.InputStream;
-
-@RunWith(MockitoJUnitRunner.class)
 public class HelperFunctionsTest{
     //@Mock
     private Context testContext;
@@ -31,10 +23,6 @@ public class HelperFunctionsTest{
         testContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         testResources = testContext.getResources();
     }
-
-//    @After
-//    public void tearDown() {
-//    }
 
     @Test
     public void isServiceRunning() {
@@ -55,7 +43,7 @@ public class HelperFunctionsTest{
     @Test
     public void playAudio() {
         assertNotNull(testResources);
-        InputStream chime = testResources.openRawResource(R.raw.casio);
-        assertTrue(HelperFunctions.playAudio(testContext, R.raw.casio));
+//        InputStream chime = testResources.openRawResource(R.raw.casio);
+        assertTrue(HelperFunctions.playAudio(testContext, R.raw.casiochime));
     }
 }
