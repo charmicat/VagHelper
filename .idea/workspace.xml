@@ -326,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672446497804</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding unit tests">
+      <created>1672529606366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672529606366</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <GitHub url="https://github.com" />
     </servers>
