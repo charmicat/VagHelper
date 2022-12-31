@@ -10,17 +10,44 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="workspace.VagHelper.VagHelper.main~1" />
-      <module name="workspace.VagHelper.VagHelper.unitTest~1" />
-      <module name="workspace.VagHelper.VagHelper.androidTest~1" />
+      <module name="VagHelper.main" />
+      <module name="VagHelper.unitTest" />
+      <module name="VagHelper.androidTest" />
       <module name="workspace.VagHelper.VagHelper" />
       <module name="VagHelper" />
+      <module name="workspace.VagHelper.VagHelper.unitTest" />
+      <module name="workspace.VagHelper.VagHelper.androidTest" />
+      <module name="workspace.VagHelper.VagHelper.main" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5855dc-3ab6-4730-b145-71f76860ea02" name="Changes" comment="updating gradle building">
+    <list default="true" id="4f5855dc-3ab6-4730-b145-71f76860ea02" name="Changes" comment="adding unit tests">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VagHelper/res/raw/casiochime.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VagHelper/src/main/java/io/github/charmicat/vaghelper/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VagHelper/src/test/java/io/github/charmicat/vaghelper/HelperFunctionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/VagHelper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.androidTest~1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.main~1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VagHelper/workspace.VagHelper.VagHelper.unitTest~1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/vagHelper/workspace.VagHelper.VagHelper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VagHelper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VagHelper/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/VagHelper/src/main/java/io/github/charmicat/vaghelper/HelperFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VagHelper/src/test/java/com/vag/vaghelper/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/publish-module.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/publish-module.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +59,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -53,7 +87,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2J0pYyAkIQrmdwN8E4whaChzyKR" />
   <component name="ProjectViewState">
@@ -67,8 +101,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/VagHelper/src/test/java/com/vag/vaghelper" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/VagHelper/src/main/java/io/github/charmicat/vaghelper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/VagHelper/res/raw" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,20 +112,50 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Properties" />
+    <option name="MODULE_TAB" value="Default Config" />
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
-    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/VagHelper/res/raw" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vag.vaghelper" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration name="HelperFunctionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":VagHelper:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.vag.vaghelper.HelperFunctionsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="VagHelper.vagHelper" />
       <method v="2">
@@ -103,6 +169,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.HelperFunctionsTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -162,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672265874457</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="now publishing to mavencentral">
+      <created>1672326270650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672326270650</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <GitHub url="https://github.com" />
     </servers>
@@ -190,6 +268,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/7.4/checksums/checksums.lock&#10;#&#9;.gradle/7.4/checksums/md5-checksums.bin&#10;#&#9;.gradle/7.4/checksums/sha1-checksums.bin&#10;#&#9;.gradle/7.4/executionHistory/executionHistory.lock&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.bin&#10;#&#9;.gradle/7.4/fileHashes/fileHashes.lock&#10;#&#9;.gradle/buildOutputCleanup/buildOutputCleanup.lock&#10;#&#9;.gradle/buildOutputCleanup/outputFiles.bin&#10;#&#9;.idea/gradle.xml&#10;#&#9;.idea/modules.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;VagHelper.iml&#10;#&#9;VagHelper/src/main/AndroidManifest.xml&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;VagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/src/main/AndroidManifest.xml&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;app/vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java&#10;#&#9;app/vagHelper/vagHelper.iml&#10;#&#9;build.gradle&#10;#&#9;local.properties&#10;#&#9;settings.gradle&#10;#&#9;vagHelper/src/main/AndroidManifest.xml&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/AudioPlayer.java&#10;#&#9;vagHelper/src/main/java/com/vag/vaghelper/HelperFunctions.java" />
     <MESSAGE value="updating gradle building" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating gradle building" />
+    <MESSAGE value="now publishing to mavencentral" />
+    <MESSAGE value="adding unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding unit tests" />
   </component>
 </project>

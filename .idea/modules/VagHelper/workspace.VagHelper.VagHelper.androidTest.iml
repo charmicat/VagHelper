@@ -19,7 +19,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../VagHelper/build/generated/aidl_source_output_dir/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../VagHelper/build/generated/ap_generated_sources/debugAndroidTest/out" />
@@ -33,7 +33,7 @@
     <content url="file://$MODULE_DIR$/../../../VagHelper/src/androidTestDebug" />
     <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="workspace.VagHelper.VagHelper.main~1" scope="TEST" />
+    <orderEntry type="module" module-name="workspace.VagHelper.VagHelper.main" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:support-annotations:27.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
