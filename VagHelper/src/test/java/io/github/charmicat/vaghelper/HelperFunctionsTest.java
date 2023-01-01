@@ -7,13 +7,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.speech.tts.TextToSpeech;
+
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.robolectric.android.controller.ServiceController;
 
+@RunWith(AndroidJUnit4.class)
 public class HelperFunctionsTest{
-    //@Mock
     private Context testContext;
 
     private Resources testResources;

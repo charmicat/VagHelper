@@ -23,7 +23,7 @@ dependencies {
     testImplementation 'androidx.test.ext:junit:1.1.4'
 
 // Robolectric environment
-    testImplementation 'org.robolectric:robolectric:4.4'
+    testImplementation 'org.robolectric:robolectric:4.9'
 
 // Optional -- Mockito framework
     testImplementation 'org.mockito:mockito-core:4.11.0'
