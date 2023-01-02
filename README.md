@@ -1,16 +1,5 @@
 # VagHelper
-misc helper functions for Android apps
+Miscelaneous helper functions for Android apps
 
-Add it to your build.gradle with:
-
-<pre>allprojects {
-    repositories {
-        maven { url "https://jitpack.io" }
-    }
-}</pre>
-
-and:
-
-<pre>dependencies {
-    compile 'com.github.charmicat:VagHelper:{latest version}'
-}</pre>
+This library is hosted on [Maven Central](https://central.sonatype.dev/). MavenCentral. Add it to your Gradle enabled project with:
+<pre>implementation 'io.github.charmicat:vaghelper:{latest version}'</pre>

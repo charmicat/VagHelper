@@ -1,21 +1,20 @@
 package io.github.charmicat.vaghelper;
 
-import static android.content.Context.POWER_SERVICE;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.speech.tts.TextToSpeech;
-import android.util.Log;
+
+import androidx.test.InstrumentationRegistry;
+import androidx.test.runner.AndroidJUnit4;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
-
-import androidx.test.InstrumentationRegistry;
-import androidx.test.runner.AndroidJUnit4;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -24,7 +23,6 @@ import androidx.test.runner.AndroidJUnit4;
  */
 @RunWith(AndroidJUnit4.class)
 public class HelperFunctionsInstrumentedTest {
-    private static final String TAG = "HelperFunctionsInstrumentedTest";
 
     private Context testContext;
     private Resources testResources;
