@@ -1,39 +1,44 @@
 package io.github.charmicat.vaghelper;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static android.content.Context.POWER_SERVICE;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.speech.tts.TextToSpeech;
-
-import androidx.test.ext.junit.runners.AndroidJUnit4;
-import androidx.test.platform.app.InstrumentationRegistry;
+import android.util.Log;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.android.controller.ServiceController;
 
+import static org.junit.Assert.*;
+
+import androidx.test.InstrumentationRegistry;
+import androidx.test.runner.AndroidJUnit4;
+
+/**
+ * Instrumented test, which will execute on an Android device.
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
 @RunWith(AndroidJUnit4.class)
-public class HelperFunctionsTest{
-    // MOVED TO HelperFunctionsInstrumentedTest
-    //TODO: remove this class
-    /*
-    private Context testContext;
+public class HelperFunctionsInstrumentedTest {
+    private static final String TAG = "HelperFunctionsInstrumentedTest";
 
+    private Context testContext;
     private Resources testResources;
 
     @Before
     public void setUp() {
         testContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+        assertEquals("io.github.charmicat.vaghelper.test", testContext.getPackageName());
         testResources = testContext.getResources();
     }
 
     @Test
     public void isServiceRunning() {
-        assertTrue(HelperFunctions.isServiceRunning(testContext, "com.vag.mychime.service.TimeService", true));
+        assertTrue(HelperFunctions.isServiceRunning(testContext, "com.google.android.gms.auth.setup.devicesignals.LockScreenService", true));
     }
 
     @Test
@@ -50,9 +55,6 @@ public class HelperFunctionsTest{
     @Test
     public void playAudio() {
         assertNotNull(testResources);
-//        InputStream chime = testResources.openRawResource(R.raw.casio);
         assertTrue(HelperFunctions.playAudio(testContext, R.raw.casiochime));
     }
-
-     */
 }

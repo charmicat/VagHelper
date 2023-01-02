@@ -1,5 +1,7 @@
 package io.github.charmicat.vaghelper;
 
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
 import android.content.ActivityNotFoundException;
@@ -85,9 +87,11 @@ public class HelperFunctions {
         // google play
         try {
             rateIntent = rateIntentForUrl(context, "market://details");
+            rateIntent.addFlags(FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(rateIntent);
         } catch (ActivityNotFoundException e) {
             rateIntent = rateIntentForUrl(context, "http://play.google.com/store/apps/details");
+            rateIntent.addFlags(FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(rateIntent);
         }
 
