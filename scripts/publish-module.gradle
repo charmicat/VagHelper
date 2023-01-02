@@ -2,7 +2,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
 task androidSourcesJar(type: Jar) {
-    archiveClassifier.set('')
+    archiveClassifier.set('sources')
     if (project.plugins.findPlugin('com.android.library')) {
         // For Android libraries
         from android.sourceSets.main.java.srcDirs
@@ -19,10 +19,10 @@ task sourceJar(type: Jar) {
     archiveClassifier.set('sources')
 }
 task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+//    source = android.sourceSets.main.java.srcDirs
+//    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
     destinationDir = file('../javadoc/')
-    failOnError false
+    failOnError true
 }
 task javadocJar(type: Jar, dependsOn: javadoc) {
     archiveClassifier.set('javadoc')

@@ -5,14 +5,13 @@ plugins {
 ext {
     // Provide your own coordinates here
     PUBLISH_GROUP_ID = 'io.github.charmicat'
-    PUBLISH_VERSION = '2.0.0'
+    PUBLISH_VERSION = '2.0.1'
     PUBLISH_ARTIFACT_ID = 'vaghelper'
 }
 apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
-//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     testImplementation('androidx.test:monitor:1.6.0')
     testImplementation('androidx.test.ext:junit:1.1.4')
 
@@ -23,7 +22,7 @@ dependencies {
     testImplementation 'androidx.test.ext:junit:1.1.4'
 
 // Robolectric environment
-    testImplementation 'org.robolectric:robolectric:4.9'
+    testImplementation 'org.robolectric:robolectric:4.9.2'
 
 // Optional -- Mockito framework
     testImplementation 'org.mockito:mockito-core:4.11.0'
@@ -38,8 +37,8 @@ android {
     }
     compileSdk 33
     defaultConfig {
-        versionCode 2
-        versionName '2.0'
+        versionCode 3
+        versionName '2.0.1'
         minSdk 23
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         targetSdk 33
